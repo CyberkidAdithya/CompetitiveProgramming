@@ -20,8 +20,8 @@
 
 #--MODULES BEGINS--
 from __future__ import division, print_function
-# '''--python 2 and pypy begins--  - comment this line to run the below code
 import sys
+# '''--python 2 and pypy begins--  - comment this line to run the below code
 if sys.version_info[0] < 3:
     from __builtin__ import xrange as range
     from future_builtins import ascii, filter, hex, map, oct, zip
