@@ -19,13 +19,14 @@
 # '''
 
 #--MODULES BEGINS--
-''' --python 2 and pypy begins--
 from __future__ import division, print_function
+# '''--python 2 and pypy begins--  - comment this line to run the below code
+import sys
 if sys.version_info[0] < 3:
     from __builtin__ import xrange as range
     from future_builtins import ascii, filter, hex, map, oct, zip
-# --python 2 and pypy ends-- '''
-import io, os, re, sys, time
+# --python 2 and pypy ends--'''
+import io, os, re, time
 from io import BytesIO, IOBase
 import math, functools, collections
 # import bisect, heapq, numpy
